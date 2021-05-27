@@ -13,5 +13,15 @@ int IsPerfectSquare (int x);
 
 int SimpleCalculator (int x ,char op, int y);
 
+int reverse_number(int num);
+
+int get_bit(int num , int bit_num);
+
+int set_bit(int num ,int bit_num);
+
+int clr_bit(int num ,int bit_num);
+
+int toggle_bit(int num ,int bit_num);
+
 
 #endif
