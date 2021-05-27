@@ -3,11 +3,11 @@
 
 
 /*******************************************************************
-**	Power function :  A function that                             **
-**		takes:                                                    **
-**			1-base 2-exponent as an arguments                     **
-**		returns:                                                  **
-**			the power                                             **
+**	Power function :  A function that                         **
+**		takes:                                            **
+**			1-base 2-exponent as an arguments         **
+**		returns:                                          **
+**			the power                                 **
 ********************************************************************/
 float power( float base , float exp)
 {
@@ -31,16 +31,16 @@ float power( float base , float exp)
 
 
 /**************************************************************************
-** 	Swap function :  function that                                       **
-** 		takes:                                                           **
-** 			1-pointer to num1 2-pointer to num2 as an arguments          **
-** 		returns:                                                         **
-** 			void                                                         **
-** 																		 **
+** 	Swap function :  function that                                   **
+** 		takes:                                                   **
+** 		    1-pointer to num1 2-pointer to num2 as an arguments  **
+** 		returns:                                                 **
+** 			void                                             **
+** 									 **
 ** -we must pass the pointers to return 2 values from one function       **
 ** -if no pointers are used the function will swap its local variables   **
 **  that will be destroyed after the functiom terminatesand no swapping  **
-**  will be in main funcion 			                                 **
+**  will be in main funcion 			                         **
 **************************************************************************/
 void swap (int* x , int* y)
 {
@@ -64,11 +64,11 @@ void swap (int* x , int* y)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	IsPostive function :  A function that                         **
-**		takes:                                                    **
-**			1-an integer number                   				  **
-**		returns:                                                  **
-**			int (state:1 pos  0zero  -1 neg)                      **
+**	IsPostive function :  A function that                     **
+**		takes:                                            **
+**			1-an integer number                   	  **
+**		returns:                                          **
+**			int (state:1 pos  0zero  -1 neg)          **
 ********************************************************************/
 
 int IsPostive (int x)
@@ -94,11 +94,11 @@ int IsPostive (int x)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	factorial function :  A function that                         **
-**		takes:                                                    **
-**			1-an integer number                   				  **
-**		returns:                                                  **
-**			the factorial of the given number                     **
+**	factorial function :  A function that                     **
+**		takes:                                            **
+**			1-an integer number                   	  **
+**		returns:                                          **
+**			the factorial of the given number         **
 ********************************************************************/
 
 int factorial (int x)
@@ -118,11 +118,11 @@ int factorial (int x)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	perfect square function :  A function that                    **
-**		takes:                                                    **
-**			1-an integer number                   				  **
-**		returns:                                                  **
-**			state ( 1 perfect sqr    0not a perfect sqr  )        **
+**	perfect square function :  A function that                **
+**		takes:                                            **
+**			1-an integer number                   	  **
+**		returns:                                          **
+**			state ( 1 perfect sqr  0not a perfect sqr)**
 ********************************************************************/
 
 int IsPerfectSquare (int x)
@@ -147,11 +147,11 @@ int IsPerfectSquare (int x)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	Simple Calculator function :  A function that                 **
-**		takes:                                                    **
-**			1-two integer numbers  2- char operator            	  **
-**		returns:                                                  **
-**			the result of the operation					          **
+**	Simple Calculator function :  A function that             **
+**		takes:                                            **
+**			1-two integer numbers  2- char operator   **
+**		returns:                                          **
+**			the result of the operation	          **
 ********************************************************************/
 
 int SimpleCalculator (int x ,char op, int y)
@@ -180,11 +180,11 @@ int SimpleCalculator (int x ,char op, int y)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	 Reverse a number  function : A function that                 **
-**		takes:                                                    **
-**			1- integer numbers       					       	  **
-**		returns:                                                  **
-**			the reversed number							          **
+**	 Reverse a number  function : A function that             **
+**		takes:                                            **
+**			1- integer numbers       		  **
+**		returns:                                          **
+**			the reversed number		          **
 ********************************************************************/
 
 int reverse_number(int num)
@@ -217,11 +217,11 @@ int reverse_number(int num)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	 Get Bit function : A function that			                  **
-**		takes:                                                    **
-**			1- Input number  2- bit number      		       	  **
-**		returns:                                                  **
-**			the value of the needed bit 				          **
+**	 Get Bit function : A function that			    **
+**		takes:                                              **
+**			1- Input number  2- bit number      	    **
+**		returns:                                            **
+**			the value of the needed bit 		    **
 ********************************************************************/
 
 int get_bit(int num , int bit_num)
@@ -242,11 +242,11 @@ int get_bit(int num , int bit_num)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	 set Bit function : A function that			                  **
-**		takes:                                                    **
-**			1- Input number  2- bit number      		       	  **
-**		returns:                                                  **
-**			the value of the number after setting the bit 		  **
+**	 set Bit function : A function that		          **
+**		takes:                                            **
+**			1- Input number  2- bit number      	  **
+**		returns:                                          **
+**	   the value of the number after setting the bit 	  **
 ********************************************************************/
 
 int set_bit(int num ,int bit_num)
@@ -265,11 +265,11 @@ int set_bit(int num ,int bit_num)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	 clear Bit function : A function that			              **
-**		takes:                                                    **
-**			1- Input number  2- bit number      		       	  **
-**		returns:                                                  **
-**			the value of the number after clearing the bit 		  **
+**	 clear Bit function : A function that		           **
+**		takes:                                             **
+**			1- Input number  2- bit number             **
+**		returns:                                           **
+**		the value of the number after clearing the bit     **
 ********************************************************************/
 
 int clr_bit(int num ,int bit_num)
@@ -290,11 +290,11 @@ int clr_bit(int num ,int bit_num)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*******************************************************************
-**	 toggle Bit function : A function that			              **
-**		takes:                                                    **
-**			1- Input number  2- bit number      		       	  **
-**		returns:                                                  **
-**			the value of the needed bit 				          **
+**	 toggle Bit function : A function that		          **
+**		takes:                                            **
+**			1- Input number  2- bit number            **
+**		returns:                                          **
+**			the value of the needed bit 		  **
 ********************************************************************/
 
 int toggle_bit(int num ,int bit_num)
