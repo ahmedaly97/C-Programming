@@ -23,5 +23,7 @@ int clr_bit(int num ,int bit_num);
 
 int toggle_bit(int num ,int bit_num);
 
+int IsOdd(int x);
+
 
 #endif
