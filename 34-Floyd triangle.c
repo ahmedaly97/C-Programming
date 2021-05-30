@@ -27,8 +27,7 @@ int main ()
 			/*outer for loop to go to a new line*/
 			for(line=1 ; line<= rows ; line++)
 			{
-				/*inner for loop to print the pattern by the number of current line
-				 decreminting till reaching to 1*/
+				/*inner for loop to print the pattern*/
 				
 				for(ctr=1; ctr <=line ; ctr++)
 				{
